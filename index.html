@@ -51,6 +51,11 @@
         height: auto;
         margin-bottom: 10px;
       }
+      .undangan img {
+        width: 80px;
+        height: auto;
+        margin: 0px;
+      }
       .cover p {
         margin: 0px;
       }
@@ -73,8 +78,8 @@
       }
       .undangan {
         display: none;
-        margin: 20px;
-        padding: 40px 20px;
+        margin: 10px;
+        padding: 10px;
         background: white;
         border-radius: 10px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -118,12 +123,7 @@
   <body>
     <div class="container">
       <div class="cover">
-        <img
-          src="gambar/mbs.png"
-          width="6000px"
-          alt="Logo Undangan"
-          id="cover-logo"
-        />
+        <img src="gambar/mbs.png" alt="Logo Undangan" id="cover-logo" />
         <h1>Undangan MBS Masbagik</h1>
         <h2>Kepada Yth.</h2>
         <p>Bapak/Ibu Wali Murid</p>
@@ -131,6 +131,14 @@
         <button class="btn-buka">Buka Undangan</button>
       </div>
       <div class="undangan fade-in">
+        <div>
+          <img
+            class="logo2"
+            src="gambar/mbs.png"
+            alt="Logo Undangan"
+            id="cover-logo"
+          />
+        </div>
         <h2>Undangan Rapat Wali Murid</h2>
         <table border="0px" width="100%">
           <tr>
@@ -138,7 +146,7 @@
               <p class="header">
                 Kepada Yth. <br />
                 Bapak/Ibu Wali Murid Kelas IX <br />
-                Muhammadiyah Boarding School
+                Muhammadiyah Boarding School Masbagik
               </p>
             </td>
           </tr>
