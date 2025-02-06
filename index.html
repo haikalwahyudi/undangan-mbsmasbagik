@@ -17,9 +17,14 @@
         margin: 0;
         padding: 0;
       }
+      @page {
+        size: 210mm 297mm;
+      }
       .container {
-        max-width: 400px;
+        max-width: 500px;
         width: 100%;
+        /* width: 210mm;
+        height: 297mm; */
         margin: auto;
       }
       .cover {
@@ -110,6 +115,21 @@
       p.isi {
         text-align: justify;
       }
+      table tr td .ttdheader{
+        font-size: 10px;
+      }
+      table tr td .ttd1{
+        width: 70%;
+        margin: 0px;
+      }
+      table tr td .ttd2{
+        width: 35%;
+        margin: 0px;
+      }
+      table tr td .ttd3{
+        width: 35%;
+        margin: 0px;
+      }
       @keyframes fadeIn {
         from {
           opacity: 0;
@@ -144,43 +164,66 @@
           <tr>
             <td colspan="3">
               <p class="header">
+                Assalamu'alaikum Warahmatullahi Wabarokatuh <br /><br />
+
                 Kepada Yth. <br />
-                Bapak/Ibu Wali Murid Kelas IX <br />
-                Muhammadiyah Boarding School Masbagik
+                Wali Santri Kelas IX
               </p>
             </td>
           </tr>
           <tr>
             <td colspan="3">
-              <p class="isi">
-                Dengan hormat, <br /><br />
-                Dalam rangka meningkatkan kualitas pendidikan dan menjalin
-                komunikasi yang baik antara pihak sekolah dengan orang tua/wali
-                murid, kami mengundang Bapak/Ibu untuk hadir dalam Rapat Wali
-                Murid yang akan dilaksanakan pada:
-                <br /><br />
-                Hari/Tanggal :....,<br />
-                Waktu : ..... <br />
-                Tempat : ..... <br />
-                Agenda :......
-                <br /><br />
-                Kehadiran Bapak/Ibu sangat kami harapkan untuk bersama-sama
-                membahas kemajuan dan perkembangan anak-anak kita.
-                <br /><br />
-                Demikian undangan ini kami sampaikan. Atas perhatian dan
-                kehadirannya, kami ucapkan terima kasih.
-                <br /><br />
+              <p class="isi" style="text-align: justify;">
+                Sehubungan dengan momen kelulusan santri kelas IX yang semakin
+                dekat, diperlukan diskusi dan koordinasi sekolah dengan wali
+                santri terkait beberapa agenda mendatang. Oleh karena itu, tanpa
+                mengurangi rasa hormat, kami mohon kehadiran Bapak/Ibu Wali
+                Santri kelas IX pada :
+                <br />
+                <table style="text-align: left">
+                  <tr>
+                    <td>Hari/Tanggal</td>
+                    <td>: Sabtu, 8 Februari 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Pukul</td>
+                    <td>: 09.00 - Selesai</td>
+                  </tr>
+                  <tr>
+                    <td>Tempat</td>
+                    <td>: Ruang Kelas IX</td>
+                  </tr>
+                </table>
               </p>
+                <p style="text-align: justify;">
+                  Demikian undangan ini disampaikan, atas perhatian Bapak/Ibu, kami ucapkan terima kasih. <br><br>
+                Wassalamu'alaikum Warahmatullahi Wabarokatuh 
+                </p>
+                <br /><br />
             </td>
           </tr>
           <tr>
-            <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
             <td>
-              <p class="ttdheader">
-                Kepala Sekolah, <br /><br /><br /><br />
-                (....................)
-              </p>
+              <div class="ttdheader">
+                <p>Ketua Panitia,</p> 
+                <img src="gambar/ketupad.png" class="ttd1" alt="ttd">
+                <p>Irwan Hidayat, S.A.P</p>
+              </div>
+            </td>
+            <td>
+              <div class="ttdheader">
+                <p>Kepala Sekolah,</p> 
+                <img src="gambar/kepsek.png" class="ttd2" alt="ttd">
+                <p>Dian Fujiati, S. Pd.</p>
+              </div>
+            </td>
+            <td>
+              <div class="ttdheader">
+                <p>Kepala Pondok,</p> 
+                <p>TTD</p>
+                <!-- <img src="gambar/kepsek.png" class="ttd3" alt="ttd"> -->
+                <p>Ramadlan Aziem M., S.H</p>
+              </div>
             </td>
           </tr>
         </table>
